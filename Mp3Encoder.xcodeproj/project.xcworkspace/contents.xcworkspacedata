@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PhuketTour.xcodeproj">
+      location = "self:/Users/apple/Desktop/book/workspace/iOS/PhuketTour/Mp3Encoder.xcodeproj">
    </FileRef>
 </Workspace>

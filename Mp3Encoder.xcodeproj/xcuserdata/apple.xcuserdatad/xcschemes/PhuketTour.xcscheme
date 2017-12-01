@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1869CCE21E174E9B00AF7BFF"
-               BuildableName = "PhuketTour.app"
-               BlueprintName = "PhuketTour"
-               ReferencedContainer = "container:PhuketTour.xcodeproj">
+               BuildableName = "Mp3Encoder.app"
+               BlueprintName = "Mp3Encoder"
+               ReferencedContainer = "container:Mp3Encoder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1869CCFB1E174E9C00AF7BFF"
-               BuildableName = "PhuketTourTests.xctest"
-               BlueprintName = "PhuketTourTests"
-               ReferencedContainer = "container:PhuketTour.xcodeproj">
+               BuildableName = "Mp3EncoderTests.xctest"
+               BlueprintName = "Mp3EncoderTests"
+               ReferencedContainer = "container:Mp3Encoder.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1869CD061E174E9C00AF7BFF"
-               BuildableName = "PhuketTourUITests.xctest"
-               BlueprintName = "PhuketTourUITests"
-               ReferencedContainer = "container:PhuketTour.xcodeproj">
+               BuildableName = "Mp3EncoderUITests.xctest"
+               BlueprintName = "Mp3EncoderUITests"
+               ReferencedContainer = "container:Mp3Encoder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1869CCE21E174E9B00AF7BFF"
-            BuildableName = "PhuketTour.app"
-            BlueprintName = "PhuketTour"
-            ReferencedContainer = "container:PhuketTour.xcodeproj">
+            BuildableName = "Mp3Encoder.app"
+            BlueprintName = "Mp3Encoder"
+            ReferencedContainer = "container:Mp3Encoder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1869CCE21E174E9B00AF7BFF"
-            BuildableName = "PhuketTour.app"
-            BlueprintName = "PhuketTour"
-            ReferencedContainer = "container:PhuketTour.xcodeproj">
+            BuildableName = "Mp3Encoder.app"
+            BlueprintName = "Mp3Encoder"
+            ReferencedContainer = "container:Mp3Encoder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1869CCE21E174E9B00AF7BFF"
-            BuildableName = "PhuketTour.app"
-            BlueprintName = "PhuketTour"
-            ReferencedContainer = "container:PhuketTour.xcodeproj">
+            BuildableName = "Mp3Encoder.app"
+            BlueprintName = "Mp3Encoder"
+            ReferencedContainer = "container:Mp3Encoder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

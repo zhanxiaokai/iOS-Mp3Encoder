@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		1869CCE81E174E9B00AF7BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869CCE71E174E9B00AF7BFF /* main.m */; };
 		1869CCEB1E174E9B00AF7BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869CCEA1E174E9B00AF7BFF /* AppDelegate.m */; };
-		1869CCEE1E174E9B00AF7BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869CCED1E174E9B00AF7BFF /* ViewController.m */; };
-		1869CCF11E174E9C00AF7BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1869CCEF1E174E9C00AF7BFF /* Main.storyboard */; };
+		1869CCEE1E174E9B00AF7BFF /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1869CCED1E174E9B00AF7BFF /* ViewController.mm */; };
 		1869CCF31E174E9C00AF7BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1869CCF21E174E9C00AF7BFF /* Assets.xcassets */; };
 		1869CCF61E174E9C00AF7BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1869CCF41E174E9C00AF7BFF /* LaunchScreen.storyboard */; };
 		1869CD011E174E9C00AF7BFF /* PhuketTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869CD001E174E9C00AF7BFF /* PhuketTourTests.m */; };
 		1869CD0C1E174E9C00AF7BFF /* PhuketTourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869CD0B1E174E9C00AF7BFF /* PhuketTourUITests.m */; };
+		18C66B1A1E1A61F10052EE59 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C66B191E1A61F10052EE59 /* libmp3lame.a */; };
+		18C66B1D1E1A62A70052EE59 /* mp3_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18C66B1B1E1A62A70052EE59 /* mp3_encoder.cpp */; };
+		18C66B201E1A65D70052EE59 /* vocal.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 18C66B1F1E1A65D70052EE59 /* vocal.pcm */; };
+		18C66B241E1A66150052EE59 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C66B231E1A66150052EE59 /* CommonUtil.m */; };
+		18FE6BD21E1A49A700C74E52 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FE6BD11E1A49A700C74E52 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +39,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1869CCE31E174E9B00AF7BFF /* PhuketTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhuketTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1869CCE31E174E9B00AF7BFF /* Mp3Encoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mp3Encoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869CCE71E174E9B00AF7BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1869CCE91E174E9B00AF7BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1869CCEA1E174E9B00AF7BFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1869CCEC1E174E9B00AF7BFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1869CCED1E174E9B00AF7BFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1869CCF01E174E9C00AF7BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1869CCED1E174E9B00AF7BFF /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		1869CCF21E174E9C00AF7BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1869CCF51E174E9C00AF7BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1869CCF71E174E9C00AF7BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1869CCFC1E174E9C00AF7BFF /* PhuketTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhuketTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1869CCFC1E174E9C00AF7BFF /* Mp3EncoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3EncoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869CD001E174E9C00AF7BFF /* PhuketTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhuketTourTests.m; sourceTree = "<group>"; };
 		1869CD021E174E9C00AF7BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1869CD071E174E9C00AF7BFF /* PhuketTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhuketTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1869CD071E174E9C00AF7BFF /* Mp3EncoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3EncoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869CD0B1E174E9C00AF7BFF /* PhuketTourUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhuketTourUITests.m; sourceTree = "<group>"; };
 		1869CD0D1E174E9C00AF7BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C66B171E1A61F10052EE59 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		18C66B191E1A61F10052EE59 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		18C66B1B1E1A62A70052EE59 /* mp3_encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mp3_encoder.cpp; sourceTree = "<group>"; };
+		18C66B1C1E1A62A70052EE59 /* mp3_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp3_encoder.h; sourceTree = "<group>"; };
+		18C66B1F1E1A65D70052EE59 /* vocal.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocal.pcm; sourceTree = "<group>"; };
+		18C66B221E1A66150052EE59 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		18C66B231E1A66150052EE59 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		18FE6BD11E1A49A700C74E52 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C66B1A1E1A61F10052EE59 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,9 +103,9 @@
 		1869CCE41E174E9B00AF7BFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1869CCE31E174E9B00AF7BFF /* PhuketTour.app */,
-				1869CCFC1E174E9C00AF7BFF /* PhuketTourTests.xctest */,
-				1869CD071E174E9C00AF7BFF /* PhuketTourUITests.xctest */,
+				1869CCE31E174E9B00AF7BFF /* Mp3Encoder.app */,
+				1869CCFC1E174E9C00AF7BFF /* Mp3EncoderTests.xctest */,
+				1869CD071E174E9C00AF7BFF /* Mp3EncoderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,15 +113,20 @@
 		1869CCE51E174E9B00AF7BFF /* PhuketTour */ = {
 			isa = PBXGroup;
 			children = (
+				18C66B211E1A66150052EE59 /* utils */,
+				18C66B1E1E1A65D70052EE59 /* resource */,
+				18C66B1B1E1A62A70052EE59 /* mp3_encoder.cpp */,
+				18C66B1C1E1A62A70052EE59 /* mp3_encoder.h */,
+				18C66B131E1A61F10052EE59 /* 3rdparty */,
 				1869CCE91E174E9B00AF7BFF /* AppDelegate.h */,
 				1869CCEA1E174E9B00AF7BFF /* AppDelegate.m */,
 				1869CCEC1E174E9B00AF7BFF /* ViewController.h */,
-				1869CCED1E174E9B00AF7BFF /* ViewController.m */,
-				1869CCEF1E174E9C00AF7BFF /* Main.storyboard */,
+				1869CCED1E174E9B00AF7BFF /* ViewController.mm */,
 				1869CCF21E174E9C00AF7BFF /* Assets.xcassets */,
 				1869CCF41E174E9C00AF7BFF /* LaunchScreen.storyboard */,
 				1869CCF71E174E9C00AF7BFF /* Info.plist */,
 				1869CCE61E174E9B00AF7BFF /* Supporting Files */,
+				18FE6BD11E1A49A700C74E52 /* ViewController.xib */,
 			);
 			path = PhuketTour;
 			sourceTree = "<group>";
@@ -140,12 +157,70 @@
 			path = PhuketTourUITests;
 			sourceTree = "<group>";
 		};
+		18C66B131E1A61F10052EE59 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				18C66B141E1A61F10052EE59 /* lame */,
+			);
+			path = 3rdparty;
+			sourceTree = "<group>";
+		};
+		18C66B141E1A61F10052EE59 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				18C66B151E1A61F10052EE59 /* include */,
+				18C66B181E1A61F10052EE59 /* lib */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		18C66B151E1A61F10052EE59 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				18C66B161E1A61F10052EE59 /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		18C66B161E1A61F10052EE59 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				18C66B171E1A61F10052EE59 /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		18C66B181E1A61F10052EE59 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				18C66B191E1A61F10052EE59 /* libmp3lame.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		18C66B1E1E1A65D70052EE59 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				18C66B1F1E1A65D70052EE59 /* vocal.pcm */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		18C66B211E1A66150052EE59 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				18C66B221E1A66150052EE59 /* CommonUtil.h */,
+				18C66B231E1A66150052EE59 /* CommonUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1869CCE21E174E9B00AF7BFF /* PhuketTour */ = {
+		1869CCE21E174E9B00AF7BFF /* Mp3Encoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1869CD101E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "PhuketTour" */;
+			buildConfigurationList = 1869CD101E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "Mp3Encoder" */;
 			buildPhases = (
 				1869CCDF1E174E9B00AF7BFF /* Sources */,
 				1869CCE01E174E9B00AF7BFF /* Frameworks */,
@@ -155,14 +230,14 @@
 			);
 			dependencies = (
 			);
-			name = PhuketTour;
+			name = Mp3Encoder;
 			productName = PhuketTour;
-			productReference = 1869CCE31E174E9B00AF7BFF /* PhuketTour.app */;
+			productReference = 1869CCE31E174E9B00AF7BFF /* Mp3Encoder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1869CCFB1E174E9C00AF7BFF /* PhuketTourTests */ = {
+		1869CCFB1E174E9C00AF7BFF /* Mp3EncoderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1869CD131E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "PhuketTourTests" */;
+			buildConfigurationList = 1869CD131E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "Mp3EncoderTests" */;
 			buildPhases = (
 				1869CCF81E174E9C00AF7BFF /* Sources */,
 				1869CCF91E174E9C00AF7BFF /* Frameworks */,
@@ -173,14 +248,14 @@
 			dependencies = (
 				1869CCFE1E174E9C00AF7BFF /* PBXTargetDependency */,
 			);
-			name = PhuketTourTests;
+			name = Mp3EncoderTests;
 			productName = PhuketTourTests;
-			productReference = 1869CCFC1E174E9C00AF7BFF /* PhuketTourTests.xctest */;
+			productReference = 1869CCFC1E174E9C00AF7BFF /* Mp3EncoderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1869CD061E174E9C00AF7BFF /* PhuketTourUITests */ = {
+		1869CD061E174E9C00AF7BFF /* Mp3EncoderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1869CD161E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "PhuketTourUITests" */;
+			buildConfigurationList = 1869CD161E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "Mp3EncoderUITests" */;
 			buildPhases = (
 				1869CD031E174E9C00AF7BFF /* Sources */,
 				1869CD041E174E9C00AF7BFF /* Frameworks */,
@@ -191,9 +266,9 @@
 			dependencies = (
 				1869CD091E174E9C00AF7BFF /* PBXTargetDependency */,
 			);
-			name = PhuketTourUITests;
+			name = Mp3EncoderUITests;
 			productName = PhuketTourUITests;
-			productReference = 1869CD071E174E9C00AF7BFF /* PhuketTourUITests.xctest */;
+			productReference = 1869CD071E174E9C00AF7BFF /* Mp3EncoderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,6 +282,7 @@
 				TargetAttributes = {
 					1869CCE21E174E9B00AF7BFF = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MY5GTD35UJ;
 						ProvisioningStyle = Automatic;
 					};
 					1869CCFB1E174E9C00AF7BFF = {
@@ -221,7 +297,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1869CCDE1E174E9B00AF7BFF /* Build configuration list for PBXProject "PhuketTour" */;
+			buildConfigurationList = 1869CCDE1E174E9B00AF7BFF /* Build configuration list for PBXProject "Mp3Encoder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +310,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1869CCE21E174E9B00AF7BFF /* PhuketTour */,
-				1869CCFB1E174E9C00AF7BFF /* PhuketTourTests */,
-				1869CD061E174E9C00AF7BFF /* PhuketTourUITests */,
+				1869CCE21E174E9B00AF7BFF /* Mp3Encoder */,
+				1869CCFB1E174E9C00AF7BFF /* Mp3EncoderTests */,
+				1869CD061E174E9C00AF7BFF /* Mp3EncoderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,9 +322,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C66B201E1A65D70052EE59 /* vocal.pcm in Resources */,
 				1869CCF61E174E9C00AF7BFF /* LaunchScreen.storyboard in Resources */,
+				18FE6BD21E1A49A700C74E52 /* ViewController.xib in Resources */,
 				1869CCF31E174E9C00AF7BFF /* Assets.xcassets in Resources */,
-				1869CCF11E174E9C00AF7BFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +350,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1869CCEE1E174E9B00AF7BFF /* ViewController.m in Sources */,
+				18C66B241E1A66150052EE59 /* CommonUtil.m in Sources */,
+				1869CCEE1E174E9B00AF7BFF /* ViewController.mm in Sources */,
 				1869CCEB1E174E9B00AF7BFF /* AppDelegate.m in Sources */,
 				1869CCE81E174E9B00AF7BFF /* main.m in Sources */,
+				18C66B1D1E1A62A70052EE59 /* mp3_encoder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,25 +379,17 @@
 /* Begin PBXTargetDependency section */
 		1869CCFE1E174E9C00AF7BFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1869CCE21E174E9B00AF7BFF /* PhuketTour */;
+			target = 1869CCE21E174E9B00AF7BFF /* Mp3Encoder */;
 			targetProxy = 1869CCFD1E174E9C00AF7BFF /* PBXContainerItemProxy */;
 		};
 		1869CD091E174E9C00AF7BFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1869CCE21E174E9B00AF7BFF /* PhuketTour */;
+			target = 1869CCE21E174E9B00AF7BFF /* Mp3Encoder */;
 			targetProxy = 1869CD081E174E9C00AF7BFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1869CCEF1E174E9C00AF7BFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1869CCF01E174E9C00AF7BFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1869CCF41E174E9C00AF7BFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,9 +493,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/PhuketTour/3rdparty/lame/include";
 				INFOPLIST_FILE = PhuketTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.changba.audio.encoder.PhuketTour;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhuketTour/3rdparty/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audio.encoder.PhuketTour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,9 +511,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/PhuketTour/3rdparty/lame/include";
 				INFOPLIST_FILE = PhuketTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.changba.audio.encoder.PhuketTour;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhuketTour/3rdparty/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.audio.encoder.PhuketTour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -448,7 +533,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changba.audio.encoder.PhuketTourTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhuketTour.app/PhuketTour";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mp3Encoder.app/Mp3Encoder";
 			};
 			name = Debug;
 		};
@@ -460,7 +545,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changba.audio.encoder.PhuketTourTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhuketTour.app/PhuketTour";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mp3Encoder.app/Mp3Encoder";
 			};
 			name = Release;
 		};
@@ -489,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1869CCDE1E174E9B00AF7BFF /* Build configuration list for PBXProject "PhuketTour" */ = {
+		1869CCDE1E174E9B00AF7BFF /* Build configuration list for PBXProject "Mp3Encoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1869CD0E1E174E9C00AF7BFF /* Debug */,
@@ -498,29 +583,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1869CD101E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "PhuketTour" */ = {
+		1869CD101E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "Mp3Encoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1869CD111E174E9C00AF7BFF /* Debug */,
 				1869CD121E174E9C00AF7BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1869CD131E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "PhuketTourTests" */ = {
+		1869CD131E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "Mp3EncoderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1869CD141E174E9C00AF7BFF /* Debug */,
 				1869CD151E174E9C00AF7BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1869CD161E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "PhuketTourUITests" */ = {
+		1869CD161E174E9C00AF7BFF /* Build configuration list for PBXNativeTarget "Mp3EncoderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1869CD171E174E9C00AF7BFF /* Debug */,
 				1869CD181E174E9C00AF7BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
